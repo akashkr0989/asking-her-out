@@ -29,13 +29,13 @@ export default function page() {
 
   return (
     <>
-      <h3 className=''>Hi Baarish :)</h3>
+      {/* <h3 className=''>Hi Baarish :)</h3> */}
     <div className='box'>
       <img alt='gumball' className='gif' src={`/${img}.gif`} />
       {how ? 
       
       'Hmmmph, Theres no choice!' : <>
-      Hi Baarish
+      Hi Baarish , can we go out for a romantic cozy date ? :)
       </>
       
       

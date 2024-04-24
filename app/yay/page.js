@@ -4,6 +4,7 @@ export default function page() {
     <div className='box'>
       <img alt='yayyy' className='gif' src='/gumball-and-darwing.gif' />
       {'Yayyy~ lets plan a date <3'}
+      <p>Akashvaani & Baarish sath sath :)</p>
     </div>
   )
 

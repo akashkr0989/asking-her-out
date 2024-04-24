@@ -10,7 +10,7 @@
 .box {
   display: grid;
   gap: 10px;
-  margin: auto;
+  /* margin: auto; */
   place-items: center;
 }
 
