@@ -28,9 +28,18 @@ export default function page() {
   }
 
   return (
+    <>
+      <h3 className=''>Hi Baarish :)</h3>
     <div className='box'>
       <img alt='gumball' className='gif' src={`/${img}.gif`} />
-      {how ? 'Hmmmph, Theres no choice!' : 'Will you go out with me?'}
+      {how ? 
+      
+      'Hmmmph, Theres no choice!' : <>
+      Hi Baarish
+      </>
+      
+      
+      }
       <div className='btns'>
         <Link className='yes' href='/yay'>
           <button onMouseOver={() => updteImg('sparkle-eyes')} onMouseOut={() => updteImg('puppy-eyes')}>
@@ -44,6 +53,7 @@ export default function page() {
         </button> 
       </div>
     </div>
+    </>
   )
   
 }
